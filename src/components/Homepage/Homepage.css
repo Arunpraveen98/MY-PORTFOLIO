@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+/* MY Name */
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+/* Type Writter */
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+/* Homepage style */
+
+.homepagebackground {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../Images/photo4.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  padding-top: 80px;
+}
+/* ------------------------------------------------------------------ */
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* ------------------------------------------------------------------ */
+.Typewriter__wrapper {
+  font-size: 2em !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  font-family: "Philosopher", sans-serif;
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 2px 2px 4px #030303;
+}
+
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #191919 !important;
+}
+
+.headtext {
+  padding-top: 120px;
+  font-size: 2.4em !important;
+  color: #191919 !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  font-family: "Alkatra", cursive;
+}
+
+.nametext {
+  font-size: 2em !important;
+  font-family: "Alkatra", cursive;
+  color: #191919 !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+
+.imagedeveloper {
+  margin-top: 60px;
+  text-align: center;
+  width: 420px;
+  height: 420px;
+  border-radius: 200px;
+  background-image: url(../../Images/arun-img.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  opacity: 0.9;
+}
+
+.socailmediabtn {
+  margin-top: 2rem;
+  width: 90px;
+  height: 45px;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+}
+
+.socailmediabtn:hover {
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  opacity: 0.6;
+}
+
+.icon-github {
+  color: black;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.icon-linkedin {
+  color: rgb(38, 62, 244);
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.icon-mail {
+  color: rgb(215, 15, 15);
+  font-size: 35px;
+  cursor: pointer;
+}
+/* ------------------------------------------------------------------ */
+@media screen and (min-width: 320px) and (max-width: 385px) {
+  .homepagebackground {
+    width: 100%;
+    height: 100%;
+    background-color: #4158d0;
+  }
+  .row {
+    padding-top: 50px;
+  }
+  .Typewriter__wrapper {
+    font-size: 1.5em !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2.2em !important;
+  }
+  .headtext {
+    padding-top: 100px;
+    font-size: 1.5em !important;
+  }
+  .nametext {
+    font-size: 1.8em !important;
+  }
+  .imagedeveloper {
+    margin-top: 50px;
+    max-width: 290px;
+    max-height: 290px;
+    margin-left: 10px;
+  }
+  .socailmediabtn {
+    margin-top: 1rem;
+  }
+}
+/* ------------------------------------------------------------------ */
+@media screen and (min-width: 385px) and (max-width: 470px) {
+  .homepagebackground {
+    width: 100%;
+    height: 100%;
+    background-color: #4158d0;
+  }
+  .row {
+    padding-top: 50px;
+  }
+  .Typewriter__wrapper {
+    font-size: 2em !important;
+    margin-left: 45px;
+  }
+  .Typewriter__cursor {
+    font-size: 2.2em !important;
+  }
+  .headtext {
+    padding-top: 100px;
+    font-size: 1.8em !important;
+    margin-left: 45px;
+  }
+  .nametext {
+    font-size: 2em !important;
+    margin-left: 45px;
+  }
+  .imagedeveloper {
+    margin-top: 40px;
+    max-width: 350px;
+    max-height: 350px;
+    margin-left: 20px;
+  }
+  .socailmediabtn {
+    margin-top: 1rem;
+    margin-left: 20px;
+  }
+}
+/* ------------------------------------------------------------------ */
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .homepagebackground {
+    width: 100vw;
+    height: 100vh;
+  }
+  .imagedeveloper {
+    margin-top: 70px;
+    max-width: 280px;
+    max-height: 280px;
+  }
+  .resumebtn {
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
+/* ------------------------------------------------------------------ */

@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+
+.projectbackground {
+  width: 100%;
+  height: 100%;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+.project-section {
+  position: relative !important;
+  padding-top: 10px !important;
+}
+
+.project-card {
+  padding-top: 20px;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+.project-card-view {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+  color: #191919 !important;
+  background-color: transparent !important;
+  border: transparent;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  border-radius: 15px;
+}
+
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+
+.project-title {
+  color: rgba(0, 0, 0, 0.856);
+  font-weight: bold;
+  font-family: "Sansita", sans-serif;
+  letter-spacing: 1px;
+}
+
+.card-img-div {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-img {
+  height: 250px;
+}
+/* ------------------------------------------------------------------ */
+.shadow-inset-center:hover {
+  -webkit-animation: shadow-inset-center 0.4s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-inset-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+/* ------------------------------------------------------------------ */
+.card-description {
+  font-size: 14px;
+  color: white;
+}
+
+.card-img-top {
+  padding: 10px !important;
+}
+
+.button-groups {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 10px;
+}
+
+.viewbtn {
+  margin: 5px;
+  letter-spacing: 1px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  color: #050505 !important;
+  font-family: "Sansita", sans-serif;
+  font-weight: bold;
+  background-color: transparent !important;
+  border-color: #ffffff64 !important;
+}
+
+.btn-primary:hover {
+  color: #ffffff !important;
+  background-color: #c850c0 !important;
+  border-color: #c850c0 !important;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* ------------------------------------------------------------------ */
+@media screen and (min-width: 320px) and (max-width: 475px) {
+  .project-section {
+    padding-top: 55px !important;
+  }
+  .card-img {
+    height: 200px;
+  }
+  .project-card {
+    padding-top: 50px;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    margin-bottom: 0px !important;
+    height: auto !important;
+  }
+  .card-description {
+    text-align: justify;
+    font-size: 12px;
+    color: white;
+  }
+  .viewbtn {
+    margin: 4px;
+    font-size: 12px !important;
+    letter-spacing: 0.5px;
+    padding: 5px;
+  }
+}
+/* ------------------------------------------------------------------ */
+@media screen and (min-width: 475px) and (max-width: 780px) {
+  .project-section {
+    padding-top: 55px !important;
+  }
+  .card-img {
+    height: 250px;
+  }
+  .card-description {
+    font-size: 16px !important;
+  }
+  .viewbtn {
+    margin: 6px;
+    font-size: 16px !important;
+    letter-spacing: 0.5px;
+    padding: 5px;
+  }
+  .project-card {
+    width: 350px !important;
+    height: auto !important;
+    padding-top: 40px;
+    padding-bottom: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-bottom: 0px !important;
+    height: auto !important;
+  }
+}
+/* ------------------------------------------------------------------ */

@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
+
+/* -------------------- */
+.skills-background {
+  width: 100%;
+  height: 100vh;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  padding-top: 80px;
+}
+
+.skills-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 120px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills-card:hover {
+  transform: translateY(-5px);
+}
+
+.skills-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.skills-name {
+  font-family: "Sansita", sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.skills-col {
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+}
+
+.ratings-card {
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+}
+
+.progress-1st-col {
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.progress-2nd-col {
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.html-icon {
+  color: orangered;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.css-icon {
+  color: blue;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.js-icon {
+  color: yellow;
+  background-color: rgb(63, 61, 61);
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.bootstrap-icon {
+  color: rgb(123, 11, 123);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.react-icon {
+  color: rgb(34, 220, 237);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.mysql-icon {
+  color: yellow;
+  background-color: rgb(63, 61, 61);
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.mongodb-icon {
+  color: green;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.node-icon {
+  color: greenyellow;
+  background-color: rgb(63, 61, 61);
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.express-icon {
+  color: rgb(10, 151, 10);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.github-icon {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.netlify-icon {
+  color: rgb(27, 179, 235);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.render-icon {
+  color: rgb(27, 179, 235);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.tools-and-technologies-title {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f1f1f;
+  text-shadow: 1px 1px 2px #ffffff;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+
+.skills-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #131212;
+  text-shadow: 1px 1px 2px #ffffff;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+}
+
+.skills-row {
+  padding-top: 10px;
+}
+
+.html-progress {
+  background-color: rgba(255, 68, 0, 0.888);
+}
+
+.css-progress {
+  background-color: rgba(0, 0, 255, 0.9);
+}
+
+.js-progress {
+  background-color: rgba(228, 215, 20, 0.884);
+}
+
+.bootstrap-progress {
+  background-color: rgb(198, 27, 198);
+}
+
+.react-progress {
+  background-color: rgb(27, 179, 235);
+}
+
+.mysql-progress {
+  background-color: rgba(228, 215, 20, 0.884);
+}
+
+.mongodb-progress {
+  background-color: green;
+}
+
+.express-progress {
+  background-color: rgb(10, 151, 10);
+}
+
+.node-progress {
+  background-color: rgba(172, 255, 47, 0.877);
+}
+
+.github-progress {
+  background-color: black;
+}
+
+.netlify-progress {
+  background-color: rgb(27, 179, 235);
+}
+
+.render-progress {
+  background-color: rgb(27, 179, 235);
+}
+
+/* ------------------------------------------------------------------ */
+@media screen and (min-width: 320px) and (max-width: 475px) {
+  .skills-background {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .tools-and-technologies-title {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .skills-title {
+    font-size: 1.5rem !important;
+    margin-top: 10px;
+  }
+  .skills-col {
+    margin-left: 10px;
+  }
+  .skills-card {
+    width: 80px !important;
+    height: 106px !important;
+    margin: 5px !important;
+  }
+  .skills-name {
+    font-size: 12px !important;
+  }
+  .skills-icon {
+    font-size: 3rem;
+    margin-bottom: 3px !important;
+  }
+  .skills-row {
+    padding-top: 0px !important;
+  }
+  .progress {
+    width: 90%;
+  }
+  .progress-1st-col {
+    padding: 10px;
+    margin-left: 15px !important;
+  }
+  .progress-2nd-col {
+    padding: 10px;
+    margin-left: 15px !important;
+  }
+}
+/* ------------------------------------------------------------------ */
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .skills-background {
+    width: 100% !important ;
+    height: 100% !important;
+  }
+  .skills-row {
+    padding-top: 0px !important;
+  }
+  .progress-1st-col {
+    margin-left: 15px !important;
+  }
+  .progress-2nd-col {
+    margin-left: 15px !important;
+  }
+  .progress {
+    width: 90%;
+  }
+}
+/* ------------------------------------------------------------------ */
