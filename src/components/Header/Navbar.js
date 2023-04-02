@@ -129,7 +129,7 @@ function Header() {
           {/* ----------------------------- */}
           <Button
             onClick={() => {
-              window.open(process.env.REACT_APP_ARUN_RESUME);
+              window.open(`${process.env.REACT_APP_ARUN_RESUME}`);
             }}
             className="resumebtn"
           >

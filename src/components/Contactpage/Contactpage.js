@@ -31,10 +31,10 @@ function Contactpage() {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        `${process.env.REACT_APP_SERVICE_ID}`,
+        `${process.env.REACT_APP_TEMPLATE_ID}`,
         form.current,
-        process.env.REACT_APP_PUBLIC_KEY
+        `${process.env.REACT_APP_PUBLIC_KEY}`
       )
       .then(
         (result) => {
@@ -78,7 +78,7 @@ function Contactpage() {
                   <button
                     className="contactbtn"
                     onClick={() => {
-                      window.open(process.env.REACT_APP_WHATSAPP);
+                      window.open(`${process.env.REACT_APP_WHATSAPP}`);
                     }}
                   >
                     Say Hello

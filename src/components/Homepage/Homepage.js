@@ -26,7 +26,7 @@ function Home() {
             {/* ----------------------------- */}
             <button
               onClick={() => {
-                window.open(process.env.REACT_APP_GITHUB);
+                window.open(`${process.env.REACT_APP_GITHUB}`);
               }}
               className="socailmediabtn"
             >
@@ -35,7 +35,7 @@ function Home() {
             {/* ----------------------------- */}
             <button
               onClick={() => {
-                window.open(process.env.REACT_APP_LINKED_IN);
+                window.open(`${process.env.REACT_APP_LINKED_IN}`);
               }}
               className="socailmediabtn"
             >
@@ -43,7 +43,7 @@ function Home() {
             </button>
             {/* ----------------------------- */}
             <button className="socailmediabtn">
-              <a href={process.env.REACT_APP_MAIL}>
+              <a href={`${process.env.REACT_APP_MAIL}`}>
                 <GrMail className="icon-mail" />
               </a>
             </button>
