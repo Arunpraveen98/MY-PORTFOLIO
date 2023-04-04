@@ -31,14 +31,14 @@ function Skills() {
               <div className="skills-icon">
                 <FaHtml5 className="html-icon" />
               </div>
-              <div className="skills-name">HTML</div>
+              <div className="skills-name">HTML5</div>
             </div>
             {/* ------------------------- */}
             <div className="skills-card">
               <div className="skills-icon">
                 <FaCss3Alt className="css-icon" />
               </div>
-              <div className="skills-name">CSS</div>
+              <div className="skills-name">CSS3</div>
             </div>
             {/* ------------------------- */}
             <div className="skills-card">
@@ -123,13 +123,13 @@ function Skills() {
               <div className="col-lg-5 progress-1st-col">
                 {/* ------------------------- */}
                 <div className="skill">
-                  <h5 className="skills-name">HTML</h5>
+                  <h5 className="skills-name">HTML5</h5>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated html-progress"
                       role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -137,13 +137,13 @@ function Skills() {
                 </div>
                 {/* ------------------------- */}
                 <div className="skill">
-                  <h5 className="skills-name">CSS</h5>
+                  <h5 className="skills-name">CSS3</h5>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated css-progress"
                       role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="75"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -156,8 +156,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated js-progress"
                       role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -170,8 +170,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated bootstrap-progress"
                       role="progressbar"
-                      style={{ width: "70%" }}
-                      aria-valuenow="70"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -184,8 +184,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated react-progress"
                       role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="75"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -216,8 +216,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated mysql-progress"
                       role="progressbar"
-                      style={{ width: "65%" }}
-                      aria-valuenow="65"
+                      style={{ width: "75%" }}
+                      aria-valuenow="75"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -230,8 +230,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated mongodb-progress"
                       role="progressbar"
-                      style={{ width: "70%" }}
-                      aria-valuenow="70"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -244,8 +244,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated express-progress"
                       role="progressbar"
-                      style={{ width: "70%" }}
-                      aria-valuenow="70"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -258,8 +258,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated node-progress"
                       role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="75"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -286,8 +286,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated render-progress"
                       role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="75"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>

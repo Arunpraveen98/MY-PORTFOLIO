@@ -33,7 +33,7 @@ function Aboutpage() {
           <Col md={5}>
             <div className="webimage">
               <lottie-player
-                src="https://assets6.lottiefiles.com/packages/lf20_ctqgzmyh.json"
+                src="https://assets7.lottiefiles.com/packages/lf20_jtbfg2nb.json"
                 background="transparent"
                 speed="1"
                 loop

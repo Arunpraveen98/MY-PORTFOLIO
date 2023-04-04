@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contactpage.css";
 import { Container } from "react-bootstrap";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -11,6 +11,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function Contactpage() {
   // -------------------------------
+  const [loader, setLoader] = useState(true);
   const success = () => {
     toast.success("👍Successfully Message sended", {
       position: "top-center",
@@ -28,7 +29,7 @@ function Contactpage() {
   // -------------------------------
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setLoader(false);
     emailjs
       .sendForm(
         `${process.env.REACT_APP_SERVICE_ID}`,
@@ -41,6 +42,7 @@ function Contactpage() {
           console.log(result.text);
           console.log("message sent");
           form.current.reset();
+          setLoader(true);
           if (result.text) {
             success();
           }
@@ -140,16 +142,30 @@ function Contactpage() {
                     {/* -------------------------- */}
                   </div>
                   {/* -------------------------- */}
-                  <div className="send-button">
-                    <button
-                      type="submit"
-                      name="submit"
-                      className="send-btn"
-                      value="Send"
-                    >
-                      SEND <IoMdSend />
-                    </button>
-                  </div>
+                  {loader ? (
+                    <div className="send-button">
+                      <button
+                        type="submit"
+                        name="submit"
+                        className="send-btn"
+                        value="SEND"
+                      >
+                        SEND <IoMdSend />
+                      </button>
+                    </div>
+                  ) : (
+                    <div className="send-button">
+                      <button
+                        type="submit"
+                        name="submit"
+                        className="send-btn"
+                        value="SEND"
+                      >
+                        <div class="submit-btn-loader"></div>
+                      </button>
+                    </div>
+                  )}
+
                   {/* -------------------------- */}
                 </form>
                 {/* -------------------------- */}
