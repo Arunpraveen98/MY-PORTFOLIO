@@ -3,7 +3,7 @@ import "./ProjectCards.css";
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from "react-bootstrap";
 import Zen_class from "../../Images/Zen-class.png";
-import web_scrapper from "../../Images/Web-Scrapper.png";
+import web_scrapper from "../../Images/WEB-SCRAPPER (2).png";
 import student_teacher_db from "../../Images/student-teacher.png";
 import pending from "../../Images/pending.webp";
 function Projectlist() {
@@ -35,7 +35,7 @@ function Projectlist() {
               <ProjectCard
                 imgPath={web_scrapper}
                 isBlog={false}
-                title="Web-Scrapper"
+                title="Web-Scrapper App"
                 description="This App makes it easy to find
                 the perfect mobile for you from e-commerce websites like Flipkart ,
                 Amazon and Snapdeal. so you can easily compare features and prices
