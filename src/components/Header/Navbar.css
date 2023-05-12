@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
 /* Navbar import */
 @import url("https://fonts.googleapis.com/css2?family=Tillana&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 .navbar {
   width: 100%;
   height: 100px;
@@ -15,9 +15,13 @@
 }
 
 .navbar-icons {
-  color: rgba(9, 61, 173, 0.888);
-  width: 16px;
-  height: 16px;
+  /* color: rgba(38, 197, 17, 0.776); */
+
+  width: 20px !important;
+  height: 20px !important;
+  position: relative;
+  bottom: 2px;
+  margin-right: 5px;
 }
 
 .sticky {
@@ -91,22 +95,22 @@
 .logo {
   font-family: "Allura", cursive;
   font-weight: bolder;
-  color: rgba(0, 0, 0, 0.795);
+  color: rgba(255, 217, 0, 0.932) ;
   font-size: 60px;
-  text-shadow: 2px 2px 4px #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.628);
 }
 
 .logo-span {
   color: white;
   font-size: 30px;
-  font-family: "Philosopher", sans-serif;
+  font-family: 'Kaushan Script', cursive;
   letter-spacing: 1px;
   font-style: italic;
   text-shadow: 1px 1px 2px #030303;
 }
 
 .navbar-nav .nav-link {
-  color: rgb(9, 9, 9) !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 16px !important;
   letter-spacing: 1px;
   font-weight: 500 !important;
@@ -116,7 +120,7 @@
 
 .navbar-nav .nav-link:hover {
   cursor: pointer !important;
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
   font-weight: bold !important;
   transform: scale(1.1);
   transition: transform 0.3s ease, color 0.3s ease;

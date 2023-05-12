@@ -17,6 +17,13 @@ import {
 } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import {
+  FcBusinessman,
+  FcHome,
+  FcRating,
+  FcDocument,
+  FcContacts,
+} from "react-icons/fc";
 
 function Header() {
   // -------------------------------
@@ -43,7 +50,7 @@ function Header() {
       {/* ----------------------------- */}
       <Navbar.Brand className="logotext" as={Link} to="/">
         {/* ----------------------------- */}
-        <span className="my-logo-name">
+        {/* <span className="my-logo-name">
           <TbCircleLetterA
             style={{ backgroundColor: "whitesmoke", borderRadius: "10px" }}
           />{" "}
@@ -56,7 +63,7 @@ function Header() {
           <TbCircleLetterN
             style={{ backgroundColor: "whitesmoke", borderRadius: "10px" }}
           />
-        </span>
+        </span> */}
         {/* ----------------------------- */}
         <div className="logo">
           P<span className="logo-span">ortfolio</span>
@@ -83,7 +90,8 @@ function Header() {
           <Nav.Item>
             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
               {" "}
-              <AiFillHome className="navbar-icons" /> Home
+              {/* <AiFillHome className="navbar-icons" />  */}
+              <FcHome className="navbar-icons" /> Home
             </Nav.Link>
           </Nav.Item>
           {/* ----------------------------- */}
@@ -93,7 +101,9 @@ function Header() {
               to="/about"
               onClick={() => updateExpanded(false)}
             >
-              <FaUserTie className="navbar-icons" /> About
+              {/* <FaUserTie className="navbar-icons" />  */}
+              <FcBusinessman className="navbar-icons" />
+              About
             </Nav.Link>
           </Nav.Item>
           {/* ----------------------------- */}
@@ -103,7 +113,9 @@ function Header() {
               to="/skills"
               onClick={() => updateExpanded(false)}
             >
-              <FaPenFancy className="navbar-icons" /> Skills
+              {/* <FaPenFancy className="navbar-icons" />  */}
+              <FcRating className="navbar-icons" />
+              Skills
             </Nav.Link>
           </Nav.Item>
           {/* ----------------------------- */}
@@ -113,7 +125,9 @@ function Header() {
               to="/project"
               onClick={() => updateExpanded(false)}
             >
-              <AiFillProject className="navbar-icons" /> Projects
+              {/* <AiFillProject className="navbar-icons" />  */}
+              <FcDocument className="navbar-icons" />
+              Projects
             </Nav.Link>
           </Nav.Item>
           {/* ----------------------------- */}
@@ -123,7 +137,9 @@ function Header() {
               to="/contact"
               onClick={() => updateExpanded(false)}
             >
-              <AiFillContacts className="navbar-icons" /> Contact
+              {/* <AiFillContacts className="navbar-icons" /> */}
+              <FcContacts className="navbar-icons" />
+              Contact
             </Nav.Link>
           </Nav.Item>
           {/* ----------------------------- */}
