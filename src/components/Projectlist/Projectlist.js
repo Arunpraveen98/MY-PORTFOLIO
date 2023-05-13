@@ -2,7 +2,7 @@ import React from "react";
 import "./ProjectCards.css";
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from "react-bootstrap";
-import Zen_class from "../../Images/E-Learning-App.png";
+import Zen_class from "../../Images/Zen-Class-App.png";
 import web_scrapper from "../../Images/Web-Scrapper-App.png";
 import Foodie_Fusion from "../../Images/Foodie-Fusion-App.png";
 import Chatter_Box from "../../Images/Chatter-Box-App.png";
