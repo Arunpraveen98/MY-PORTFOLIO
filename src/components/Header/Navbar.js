@@ -2,19 +2,8 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import {
-  AiFillContacts,
-  AiFillFileExclamation,
-  AiFillHome,
-  AiFillProject,
-} from "react-icons/ai";
-import { FaPenFancy, FaUserTie } from "react-icons/fa";
-import {
-  TbCircleLetterA,
-  TbCircleLetterR,
-  TbCircleLetterU,
-  TbCircleLetterN,
-} from "react-icons/tb";
+import { AiFillFileExclamation } from "react-icons/ai";
+
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import {
@@ -50,21 +39,6 @@ function Header() {
       {/* ----------------------------- */}
       <Navbar.Brand className="logotext" as={Link} to="/">
         {/* ----------------------------- */}
-        {/* <span className="my-logo-name">
-          <TbCircleLetterA
-            style={{ backgroundColor: "whitesmoke", borderRadius: "10px" }}
-          />{" "}
-          <TbCircleLetterR
-            style={{ backgroundColor: "whitesmoke", borderRadius: "10px" }}
-          />{" "}
-          <TbCircleLetterU
-            style={{ backgroundColor: "whitesmoke", borderRadius: "10px" }}
-          />{" "}
-          <TbCircleLetterN
-            style={{ backgroundColor: "whitesmoke", borderRadius: "10px" }}
-          />
-        </span> */}
-        {/* ----------------------------- */}
         <div className="logo">
           P<span className="logo-span">ortfolio</span>
         </div>
@@ -89,8 +63,6 @@ function Header() {
           {/* ----------------------------- */}
           <Nav.Item>
             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-              {" "}
-              {/* <AiFillHome className="navbar-icons" />  */}
               <FcHome className="navbar-icons" /> Home
             </Nav.Link>
           </Nav.Item>
@@ -101,7 +73,6 @@ function Header() {
               to="/about"
               onClick={() => updateExpanded(false)}
             >
-              {/* <FaUserTie className="navbar-icons" />  */}
               <FcBusinessman className="navbar-icons" />
               About
             </Nav.Link>
@@ -113,7 +84,6 @@ function Header() {
               to="/skills"
               onClick={() => updateExpanded(false)}
             >
-              {/* <FaPenFancy className="navbar-icons" />  */}
               <FcRating className="navbar-icons" />
               Skills
             </Nav.Link>
@@ -125,7 +95,6 @@ function Header() {
               to="/project"
               onClick={() => updateExpanded(false)}
             >
-              {/* <AiFillProject className="navbar-icons" />  */}
               <FcDocument className="navbar-icons" />
               Projects
             </Nav.Link>
@@ -137,7 +106,6 @@ function Header() {
               to="/contact"
               onClick={() => updateExpanded(false)}
             >
-              {/* <AiFillContacts className="navbar-icons" /> */}
               <FcContacts className="navbar-icons" />
               Contact
             </Nav.Link>

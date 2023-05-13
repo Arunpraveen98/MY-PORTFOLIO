@@ -8,7 +8,7 @@ import Foodie_Fusion from "../../Images/Foodie-Fusion-App.png";
 import Chatter_Box from "../../Images/Chatter-Box-App.png";
 import Library_Management from "../../Images/Libarary-App.png";
 import student_teacher_db from "../../Images/student-teacher.png";
-// import pending from "../../Images/pending.webp";
+
 function Projectlist() {
   console.log(process.env.REACT_APP_STUDENT_E_LEARNING_APP);
   return (
@@ -21,11 +21,33 @@ function Projectlist() {
           {/* ----------------------------- */}
 
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <div className="project-credentials col-lg-12">
+              <div className="credentials">Credentials :</div>
+              <div className="admin-div col-sm-5">
+                <span className="credential-key">Admin:</span>
+
+                <span className="email-key">
+                  Email :<span className="email-value">admin@gmail.com</span>
+                </span>
+                <span className="pass-key">
+                  Password :<span className="pass-value">Admin@1234</span>
+                </span>
+              </div>
+              <div className="user-div col-sm-5">
+                <span className="credential-key-2">User:</span>
+
+                <span className="email-key">
+                  Email :<span className="email-value">demo@gmail.com</span>
+                </span>
+                <span className="pass-key">
+                  Password :<span className="pass-value">Demo@1234</span>
+                </span>
+              </div>
+            </div>
             {/* ----------------------------- */}
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={Zen_class}
-                isBlog={false}
                 title="E-Learning App"
                 description="This project is an innovative student e-learning app built using MERN stack, 
                 offering an immersive learning experience. Attend daily classes, complete daily tasks,
@@ -39,7 +61,6 @@ function Projectlist() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={Foodie_Fusion}
-                isBlog={false}
                 title="Foodie-Fusion App"
                 description="This application is built with MERN stack and Stripe API,
                  providing a seamless and secure checkout process for customers. 
@@ -55,7 +76,6 @@ function Projectlist() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={web_scrapper}
-                isBlog={false}
                 title="Web-Scrapper App"
                 description="This App makes it easy to find
                 the perfect mobile for you from e-commerce websites like Flipkart ,
@@ -74,7 +94,6 @@ function Projectlist() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={Chatter_Box}
-                isBlog={false}
                 title="Chatter-Box App"
                 description="This chat application is built using the MERN stack and Socket.io,
                  allowing real-time communication between users. With a modern and intuitive user interface, 
@@ -88,7 +107,6 @@ function Projectlist() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={Library_Management}
-                isBlog={false}
                 title="Library-Management App"
                 description="I created an efficient library management system using React.js, 
                 empowering readers to explore a vast collection of books while granting librarians 
@@ -101,7 +119,6 @@ function Projectlist() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={student_teacher_db}
-                isBlog={false}
                 title="Student-Teacher-DB"
                 description=" This Student-Teacher-Management is a Single Page web application built
                 using React.js. With its intuitive user interface, where Students

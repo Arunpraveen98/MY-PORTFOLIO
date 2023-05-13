@@ -17,7 +17,51 @@
   position: relative !important;
   padding-top: 10px !important;
 }
-
+.project-credentials {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Sansita", sans-serif;
+}
+.credentials {
+  color: white;
+  text-shadow: 0.5px 0.5px 1px #030303;
+  letter-spacing: 2px;
+  padding-bottom: 2px;
+}
+.credential-key {
+  color: white;
+  text-shadow: 0.5px 0.5px 1px #030303;
+  letter-spacing: 2px;
+  margin-right: 5px;
+}
+.credential-key-2 {
+  color: white;
+  text-shadow: 0.5px 0.5px 1px #030303;
+  letter-spacing: 2px;
+  margin-right: 18px;
+}
+.email-key {
+  color: rgb(255, 255, 0);
+  margin-right: 5px;
+  letter-spacing: 2px;
+}
+.pass-key {
+  color: rgb(255, 255, 0);
+  margin-right: 5px;
+  letter-spacing: 2px;
+}
+.email-value {
+  color: white;
+  margin-right: 5px;
+  letter-spacing: 2px;
+}
+.pass-value {
+  color: white;
+  letter-spacing: 2px;
+}
 .project-card {
   padding-top: 20px;
   padding-bottom: 50px !important;
@@ -50,6 +94,7 @@
   font-weight: bold;
   font-family: "Sansita", sans-serif;
   letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #cacaca;
 }
 
 .card-img-div {
@@ -131,7 +176,7 @@
   box-shadow: none !important;
 }
 /* ------------------------------------------------------------------ */
-@media screen and (min-width: 320px) and (max-width: 475px) {
+@media screen and (min-width: 320px) and (max-width: 500px) {
   .project-section {
     padding-top: 55px !important;
   }
@@ -139,7 +184,7 @@
     height: 200px;
   }
   .project-card {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
@@ -156,6 +201,60 @@
     font-size: 12px !important;
     letter-spacing: 0.5px;
     padding: 5px;
+  }
+  /* -------- */
+  .project-credentials {
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 10px;
+    font-family: "Sansita", sans-serif;
+  }
+  .credentials {
+    display: flex;
+    text-shadow: 0.5px 0.5px 1px #030303;
+    letter-spacing: 1px;
+  }
+  .admin-div {
+    display: flex;
+  }
+  .user-div {
+    display: flex;
+  }
+  .credential-key {
+    color: white;
+    text-shadow: 0.5px 0.5px 1px #030303;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    margin-top: 5px;
+    /* max-width: 50px; */
+  }
+  .credential-key-2 {
+    color: white;
+    text-shadow: 0.5px 0.5px 1px #030303;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    /* margin-right: 18px; */
+  }
+  .email-key {
+    margin-right: 0px;
+    letter-spacing: 1px;
+    padding: 5px;
+  }
+  .pass-key {
+    margin-right: 0px;
+    letter-spacing: 1px;
+    padding: 5px;
+  }
+  .email-value {
+    color: white;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    /* display: block; */
+  }
+  .pass-value {
+    color: white;
+    letter-spacing: 2px;
+    /* display: block; */
   }
 }
 /* ------------------------------------------------------------------ */

@@ -70,31 +70,7 @@ function ProjectCard(props) {
         )}
         {/* ----------------------------- */}
       </div>
-      {/* <div className="project-demo">
-            <Button
-              className="viewbtn"
-              variant="primary"
-              href={props.ghLink}
-              target="_blank"
-            >
-              Live Demo
-            </Button>
-          </div> */}
-      {"\n"}
-      {"\n"}
 
-      {/* 
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-
-            {"Demo"}
-          </Button>
-        )} */}
       {/* ----------------------------- */}
     </Card>
   );

@@ -1,6 +1,6 @@
-import React from 'react'
-import Header from '../components/Header/Navbar';
-import Projectlist from '../components/Projectlist/Projectlist'
+import React from "react";
+import Header from "../components/Header/Navbar";
+import Projectlist from "../components/Projectlist/Projectlist";
 
 function Project() {
   return (
@@ -8,7 +8,7 @@ function Project() {
       <Header />
       <Projectlist />
     </div>
-  )
+  );
 }
 
-export default Project
+export default Project;

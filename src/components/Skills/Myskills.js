@@ -170,8 +170,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated bootstrap-progress"
                       role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -184,8 +184,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated react-progress"
                       role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -198,8 +198,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated netlify-progress"
                       role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -216,8 +216,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated mysql-progress"
                       role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="75"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -230,8 +230,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated mongodb-progress"
                       role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -244,8 +244,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated express-progress"
                       role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -272,8 +272,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated github-progress"
                       role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -286,8 +286,8 @@ function Skills() {
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated render-progress"
                       role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>

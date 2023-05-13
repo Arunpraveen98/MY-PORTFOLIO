@@ -5,6 +5,7 @@ import Text from "../Homepage/Text";
 import { AiFillGithub } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
 import { FaLinkedinIn } from "react-icons/fa";
+// import profile_pic from "../../Images/arun-img.jpg";
 function Home() {
   return (
     <div className="homepagebackground">
@@ -13,7 +14,7 @@ function Home() {
         {/* ----------------------------- */}
         <Row>
           {/* ----------------------------- */}
-          <Col md={7}>
+          <Col md={7} className="homepage-my-info">
             {/* ----------------------------- */}
             <h2 className="headtext">
               Hello <span className="wave">👋 </span>
@@ -50,8 +51,9 @@ function Home() {
           </Col>
           {/* ----------------------------- */}
           <Col md={5}>
-            <div className="imagedeveloper"></div>
+            <div className="imagedeveloper img-blob"></div>
           </Col>
+
           {/* ----------------------------- */}
         </Row>
         {/* ----------------------------- */}

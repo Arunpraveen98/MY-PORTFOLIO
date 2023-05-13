@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 /* -------------------- */
 .skills-background {
   width: 100%;
@@ -61,7 +61,9 @@
   transition: all 0.3s ease-in-out;
   padding: 10px;
 }
-
+.progress {
+  height: 12px;
+}
 .progress-1st-col {
   border-radius: 10px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
@@ -89,7 +91,7 @@
 }
 
 .html-icon {
-  color: orangered;
+  color: rgb(255, 68, 0);
   background-color: whitesmoke;
   border-radius: 10px;
   padding: 0px;
@@ -178,18 +180,20 @@
   font-size: 2rem;
   font-weight: bold;
   color: #1f1f1f;
-  text-shadow: 1px 1px 2px #ffffff;
+  text-shadow: 1px 1px 2px #ffffffb9;
   padding-bottom: 10px;
   text-align: center;
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Courgette', cursive;
+  /* font-style: italic; */
+
 }
 
 .skills-title {
   font-size: 2rem;
   font-weight: bold;
   color: #131212;
-  text-shadow: 1px 1px 2px #ffffff;
-  font-family: "Kaushan Script", cursive;
+  text-shadow: 1px 1px 2px #ffffffad;
+  font-family: 'Courgette', cursive;
   text-align: center;
 }
 
@@ -198,51 +202,51 @@
 }
 
 .html-progress {
-  background-color: rgba(255, 68, 0, 0.888);
+  background-color: rgba(255, 68, 0, 0.733);
 }
 
 .css-progress {
-  background-color: rgba(0, 0, 255, 0.9);
+  background-color: rgba(0, 0, 255, 0.751);
 }
 
 .js-progress {
-  background-color: rgba(228, 215, 20, 0.884);
+  background-color: rgba(228, 214, 20, 0.733);
 }
 
 .bootstrap-progress {
-  background-color: rgb(198, 27, 198);
+  background-color: rgba(198, 27, 198, 0.756);
 }
 
 .react-progress {
-  background-color: rgb(27, 179, 235);
+  background-color: rgba(27, 180, 235, 0.783);
 }
 
 .mysql-progress {
-  background-color: rgba(228, 215, 20, 0.884);
+  background-color: rgba(228, 214, 20, 0.744);
 }
 
 .mongodb-progress {
-  background-color: green;
+  background-color: rgba(0, 128, 0, 0.758);
 }
 
 .express-progress {
-  background-color: rgb(10, 151, 10);
+  background-color: rgba(10, 151, 10, 0.749);
 }
 
 .node-progress {
-  background-color: rgba(172, 255, 47, 0.877);
+  background-color: rgba(172, 255, 47, 0.767);
 }
 
 .github-progress {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .netlify-progress {
-  background-color: rgb(27, 179, 235);
+  background-color: rgba(27, 180, 235, 0.758);
 }
 
 .render-progress {
-  background-color: rgb(27, 179, 235);
+  background-color: rgba(27, 180, 235, 0.758);
 }
 
 /* ------------------------------------------------------------------ */
