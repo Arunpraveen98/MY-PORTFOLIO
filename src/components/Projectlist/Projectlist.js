@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zen_class from "../../Images/Zen-Class-App.png";
 import web_scrapper from "../../Images/Web-Scrapper-App.png";
 import Foodie_Fusion from "../../Images/Foodie-Fusion-App.png";
-import Chatter_Box from "../../Images/Chatter-Box-App.png";
+import Chatter_Box from "../../Images/Chatter-Box2.png";
 import Library_Management from "../../Images/Libarary-App.png";
 import student_teacher_db from "../../Images/student-teacher.png";
 
@@ -75,6 +75,19 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
+                imgPath={Chatter_Box}
+                title="Chatter-Box App"
+                description="This chat application is built using the MERN stack and Socket.io,
+                 allowing real-time communication between users. With a modern and intuitive user interface, 
+                 users can easily connect and chat with each other on a secure platform."
+                Demo_Link={`${process.env.REACT_APP_CHATTER_BOX_APP}`}
+                Front_end="https://github.com/Arunpraveen98/CHATTER-BOX-FRONTEND"
+                Back_end="https://github.com/Arunpraveen98/CHATTER-BOX-BACKEND"
+              />
+            </Col>
+            {/* ----------------------------- */}
+            <Col md={4} className="project-card">
+              <ProjectCard
                 imgPath={web_scrapper}
                 title="Web-Scrapper App"
                 description="This App makes it easy to find
@@ -91,19 +104,6 @@ function Projectlist() {
 
             {/* ----------------------------- */}
 
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={Chatter_Box}
-                title="Chatter-Box App"
-                description="This chat application is built using the MERN stack and Socket.io,
-                 allowing real-time communication between users. With a modern and intuitive user interface, 
-                 users can easily connect and chat with each other on a secure platform."
-                Demo_Link={`${process.env.REACT_APP_CHATTER_BOX_APP}`}
-                Front_end="https://github.com/Arunpraveen98/CHATTER-BOX-FRONTEND"
-                Back_end="https://github.com/Arunpraveen98/CHATTER-BOX-BACKEND"
-              />
-            </Col>
-            {/* ----------------------------- */}
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={Library_Management}
