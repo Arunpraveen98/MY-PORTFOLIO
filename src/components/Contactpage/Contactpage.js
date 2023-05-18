@@ -8,6 +8,7 @@ import { AiFillMessage } from "react-icons/ai";
 import { IoMdSend } from "react-icons/io";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FaCopyright } from "react-icons/fa";
 
 function Contactpage() {
   // -------------------------------
@@ -106,7 +107,7 @@ function Contactpage() {
                   <div className="input-div">
                     {/* -------------------------- */}
                     <div>
-                      <label className="input-label">Name</label>
+                      <label className="input-label">Name :</label>
                       <br></br>
                       <input
                         type="text"
@@ -118,7 +119,7 @@ function Contactpage() {
                     </div>
                     {/* -------------------------- */}
                     <div>
-                      <label className="input-label">Email</label>
+                      <label className="input-label">Email :</label>
                       <br></br>
                       <input
                         type="email"
@@ -130,7 +131,7 @@ function Contactpage() {
                     </div>
                     {/* -------------------------- */}
                     <div>
-                      <label className="input-label">Message</label>
+                      <label className="input-label">Message :</label>
                       <br></br>
                       <textarea
                         name="message"
@@ -174,7 +175,7 @@ function Contactpage() {
             </div>
             {/* -------------------------- */}
             <p className="copyright">
-              © Copyright 2023.
+              <FaCopyright className="copyright-icon" /> 2023.
               <br />
               Designed & Built by - <span>Arun Praveen</span>
             </p>

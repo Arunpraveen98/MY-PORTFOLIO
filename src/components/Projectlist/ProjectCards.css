@@ -175,6 +175,9 @@
   outline: none !important;
   box-shadow: none !important;
 }
+.btn-link {
+  color: rgba(241, 241, 234, 0.957);
+}
 /* ------------------------------------------------------------------ */
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .project-section {

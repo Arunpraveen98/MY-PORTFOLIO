@@ -121,27 +121,37 @@
 
 .socailmediabtn:hover {
   background-color: transparent;
-  box-shadow: rgba(165, 164, 164, 0.35) 0px 5px 15px !important;
+  box-shadow: rgba(165, 164, 164, 0.836) 0px 5px 15px !important;
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .icon-github {
   color: rgb(255, 255, 255);
   font-size: 35px;
   cursor: pointer;
+  filter: drop-shadow(1px 1px rgb(36, 244, 241));
 }
 
 .icon-linkedin {
   color: rgb(35, 145, 236);
   font-size: 35px;
   cursor: pointer;
+  filter: drop-shadow(1px 1px white);
 }
 
 .icon-mail {
   color: rgb(215, 15, 15);
   font-size: 35px;
   cursor: pointer;
+  filter: drop-shadow(1px 1px white);
 }
+/* @media screen and (min-width:1080px) and (max-width: 1200px) {
+  .social-btn-div{
+    position: relative;
+    left:50px;
+  }
+} */
 /* ------------------------------------------------------------------ */
 @media screen and (min-width: 320px) and (max-width: 385px) {
   .homepagebackground {

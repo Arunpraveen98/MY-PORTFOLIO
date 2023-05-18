@@ -25,29 +25,31 @@ function Home() {
             <span></span>
             <Text />
             {/* ----------------------------- */}
-            <button
-              onClick={() => {
-                window.open(`${process.env.REACT_APP_GITHUB}`);
-              }}
-              className="socailmediabtn"
-            >
-              <AiFillGithub className="icon-github" />
-            </button>
-            {/* ----------------------------- */}
-            <button
-              onClick={() => {
-                window.open(`${process.env.REACT_APP_LINKED_IN}`);
-              }}
-              className="socailmediabtn"
-            >
-              <FaLinkedinIn className="icon-linkedin" />
-            </button>
-            {/* ----------------------------- */}
-            <button className="socailmediabtn">
-              <a href={`${process.env.REACT_APP_MAIL}`}>
-                <GrMail className="icon-mail" />
-              </a>
-            </button>
+            <div className="social-btn-div">
+              <button
+                onClick={() => {
+                  window.open(`${process.env.REACT_APP_GITHUB}`);
+                }}
+                className="socailmediabtn"
+              >
+                <AiFillGithub className="icon-github" />
+              </button>
+              {/* ----------------------------- */}
+              <button
+                onClick={() => {
+                  window.open(`${process.env.REACT_APP_LINKED_IN}`);
+                }}
+                className="socailmediabtn"
+              >
+                <FaLinkedinIn className="icon-linkedin" />
+              </button>
+              {/* ----------------------------- */}
+              <button className="socailmediabtn">
+                <a href={`${process.env.REACT_APP_MAIL}`}>
+                  <GrMail className="icon-mail" />
+                </a>
+              </button>
+            </div>
           </Col>
           {/* ----------------------------- */}
           <Col md={5}>

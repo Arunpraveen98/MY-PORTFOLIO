@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "./ProjectCards.css";
+import { FaCode, FaLink } from "react-icons/fa";
 function ProjectCard(props) {
   return (
     <Card className="project-card-view">
@@ -37,7 +38,7 @@ function ProjectCard(props) {
             href={props.Demo_Link}
             target="_blank"
           >
-            Live Demo
+            Live Demo <FaLink className="btn-link" />
           </Button>
         ) : (
           ""
@@ -50,7 +51,7 @@ function ProjectCard(props) {
             href={props.Front_end}
             target="_blank"
           >
-            Front-end
+            Front-end <FaCode className="btn-link" />
           </Button>
         ) : (
           ""
@@ -63,7 +64,7 @@ function ProjectCard(props) {
             href={props.Back_end}
             target="_blank"
           >
-            Back-end
+            Back-end <FaCode className="btn-link" />
           </Button>
         ) : (
           ""
