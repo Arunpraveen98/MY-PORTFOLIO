@@ -111,7 +111,7 @@
 }
 
 .navbar-nav .nav-link {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(249, 246, 238) !important;
   font-size: 16px !important;
   letter-spacing: 1px;
   font-weight: 500 !important;
@@ -144,7 +144,7 @@
 }
 
 .resume-title:hover {
-  color: yellow !important;
+  /* color: rgb(19, 19, 19) !important; */
   cursor: pointer;
 }
 /* ------------------------------------------------------------------ */
@@ -160,13 +160,14 @@
     width: 100%;
     height: 250px;
     border-radius: 10px;
-    background-color: #4158d0;
+    /* background-color: #4158d0;
     background-image: linear-gradient(
       43deg,
       #4158d0 0%,
       #c850c0 0%,
       #ffcc70 100%
-    );
+    ); */
+    background-color: #000000;
   }
   .nav-link {
     display: flex;

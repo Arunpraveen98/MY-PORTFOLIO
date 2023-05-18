@@ -44,12 +44,13 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #c05ab9cb;
+  background: rgba(0, 0, 0, 0.758);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(174, 64, 224, 0.65);
+  /* background: rgba(174, 64, 224, 0.65); */
+  background-color: rgba(0, 0, 0, 0.758);
   border-radius: 12px;
 }
 

@@ -4,7 +4,7 @@ import Homepage from "../components/Homepage/Homepage";
 // import Aboutpage from '../components/Aboutpage/Aboutpage';
 // import Skills from '../components/Skills/Myskills';
 // import Projectlist from '../components/Projectlist/Projectlist';
-// import Contactpage from '../components/Contactpage/Contactpage'
+import Contactpage from "../components/Contactpage/Contactpage";
 function Home() {
   return (
     <div>

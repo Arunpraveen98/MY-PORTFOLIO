@@ -122,34 +122,7 @@ function Skills() {
               {/* ------------------------- */}
               <div className="col-lg-5 progress-1st-col">
                 {/* ------------------------- */}
-                <div className="skill">
-                  <h5 className="skills-name">HTML5</h5>
-                  <div className="progress">
-                    <div
-                      className="progress-bar progress-bar-striped progress-bar-animated html-progress"
-                      role="progressbar"
-                      style={{ width: "85%" }}
-                      aria-valuenow="85"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                {/* ------------------------- */}
-                <div className="skill">
-                  <h5 className="skills-name">CSS3</h5>
-                  <div className="progress">
-                    <div
-                      className="progress-bar progress-bar-striped progress-bar-animated css-progress"
-                      role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                {/* ------------------------- */}
+            
                 <div className="skill">
                   <h5 className="skills-name">JavaScript</h5>
                   <div className="progress">
@@ -165,70 +138,10 @@ function Skills() {
                 </div>
                 {/* ------------------------- */}
                 <div className="skill">
-                  <h5 className="skills-name">Bootstrap</h5>
-                  <div className="progress">
-                    <div
-                      className="progress-bar progress-bar-striped progress-bar-animated bootstrap-progress"
-                      role="progressbar"
-                      style={{ width: "85%" }}
-                      aria-valuenow="85"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                {/* ------------------------- */}
-                <div className="skill">
                   <h5 className="skills-name">React.js</h5>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated react-progress"
-                      role="progressbar"
-                      style={{ width: "85%" }}
-                      aria-valuenow="85"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                {/* ------------------------- */}
-                <div className="skill">
-                  <h5 className="skills-name">Netlify</h5>
-                  <div className="progress">
-                    <div
-                      className="progress-bar progress-bar-striped progress-bar-animated netlify-progress"
-                      role="progressbar"
-                      style={{ width: "85%" }}
-                      aria-valuenow="85"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              {/* END OF PROGRESS BAR 1st-COL */}
-              {/* ------------------------- */}
-              <div className="col-lg-5 progress-2nd-col">
-                {/* ------------------------- */}
-                <div className="skill">
-                  <h5 className="skills-name">MySQL</h5>
-                  <div className="progress">
-                    <div
-                      className="progress-bar progress-bar-striped progress-bar-animated mysql-progress"
-                      role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                {/* ------------------------- */}
-                <div className="skill">
-                  <h5 className="skills-name">MongoDB</h5>
-                  <div className="progress">
-                    <div
-                      className="progress-bar progress-bar-striped progress-bar-animated mongodb-progress"
                       role="progressbar"
                       style={{ width: "85%" }}
                       aria-valuenow="85"
@@ -267,7 +180,84 @@ function Skills() {
                 </div>
                 {/* ------------------------- */}
                 <div className="skill">
-                  <h5 className="skills-name">Github</h5>
+                  <h5 className="skills-name">MongoDB</h5>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-striped progress-bar-animated mongodb-progress"
+                      role="progressbar"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                {/* ------------------------- */}
+                
+                {/* <div className="skill">
+                  <h5 className="skills-name">Netlify</h5>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-striped progress-bar-animated netlify-progress"
+                      role="progressbar"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div> */}
+              </div>
+              {/* END OF PROGRESS BAR 1st-COL */}
+              {/* ------------------------- */}
+              <div className="col-lg-5 progress-2nd-col">
+                {/* ------------------------- */}
+                <div className="skill">
+                  <h5 className="skills-name">HTML5</h5>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-striped progress-bar-animated html-progress"
+                      role="progressbar"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                {/* ------------------------- */}
+                <div className="skill">
+                  <h5 className="skills-name">CSS3</h5>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-striped progress-bar-animated css-progress"
+                      role="progressbar"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                {/* ------------------------- */}
+            
+             
+                <div className="skill">
+                  <h5 className="skills-name">Bootstrap</h5>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-striped progress-bar-animated bootstrap-progress"
+                      role="progressbar"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                {/* ------------------------- */}
+                   <div className="skill">
+                  <h5 className="skills-name">Material-UI</h5>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated github-progress"
@@ -281,6 +271,34 @@ function Skills() {
                 </div>
                 {/* ------------------------- */}
                 <div className="skill">
+                  <h5 className="skills-name">MySQL</h5>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-striped progress-bar-animated mysql-progress"
+                      role="progressbar"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                {/* ------------------------- */}
+                {/* <div className="skill">
+                  <h5 className="skills-name">Github</h5>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-striped progress-bar-animated github-progress"
+                      role="progressbar"
+                      style={{ width: "85%" }}
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div> */}
+                {/* ------------------------- */}
+                {/* <div className="skill">
                   <h5 className="skills-name">Render</h5>
                   <div className="progress">
                     <div
@@ -292,7 +310,7 @@ function Skills() {
                       aria-valuemax="100"
                     ></div>
                   </div>
-                </div>
+                </div> */}
                 {/* ------------------------- */}
               </div>
               {/* END OF PROGRESS BAR 2nd-COL  */}

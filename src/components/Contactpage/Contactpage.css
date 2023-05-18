@@ -2,13 +2,14 @@
 
 .contactbackground {
   width: 100%;
-  background-color: #4158d0;
+  /* background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
     #4158d0 0%,
     #c850c0 46%,
     #ffcc70 100%
-  );
+  ); */
+  background-color: #000000;
   padding-top: 110px;
 }
 
@@ -34,8 +35,8 @@
 }
 
 .contact-me {
-  text-shadow: 1px 1px 2px #ffffff;
-  color: #000000eb;
+  text-shadow: 1px 1px 2px #0b0b0b !important;
+  color: rgba(255, 217, 0, 0.932) !important;
   font-size: 3.2rem;
   font-weight: 800;
   letter-spacing: 1px;
@@ -43,8 +44,8 @@
 }
 
 .contacthead {
-  text-shadow: 1px 1px 2px #ffffff;
-  color: #000000eb;
+  text-shadow: 1px 1px 2px #0b0b0b;
+  color: rgba(255, 217, 0, 0.932);
   padding-top: 3rem;
   text-align: center;
   font-size: 3.2rem;
@@ -79,9 +80,11 @@
   margin: 0 auto;
   width: 150px;
   height: 50px;
+  color: #ffffff;
   font-family: "Sansita", sans-serif;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+  /* box-shadow: rgba(200, 200, 205, 0.1) 0px 4px 16px,
+  rgba(200, 200, 205, 0.1) 0px 8px 24px, rgba(200, 200, 205, 0.1) 0px 16px 56px !important; */
+  box-shadow: rgba(191, 191, 196, 0.25) 0px 2px 5px -1px, rgba(225, 222, 222, 0.3) 0px 1px 3px -1px;
   border-radius: 10px;
   border: none;
   background-color: transparent;
@@ -109,7 +112,7 @@
 .copyright span {
   font-weight: 700;
   letter-spacing: 1px;
-  color: black;
+  color: rgb(255, 255, 0);
 }
 
 .contact-form {
@@ -135,7 +138,7 @@
 }
 
 .contact-form .text-box {
-  background: #000;
+  background: #8984844f;
   color: #fff;
   border: none;
   width: 60%;

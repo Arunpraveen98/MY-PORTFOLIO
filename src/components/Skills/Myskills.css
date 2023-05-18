@@ -8,13 +8,14 @@
 .skills-background {
   width: 100%;
   height: 100vh;
-  background-color: #4158d0;
+  /* background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
     #4158d0 0%,
     #c850c0 46%,
     #ffcc70 100%
-  );
+  ); */
+  background-color: #000000;
   padding-top: 80px;
 }
 
@@ -27,7 +28,7 @@
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16);
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -50,7 +51,7 @@
 
 .skills-col {
   border-radius: 10px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16); */
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   padding: 10px;
@@ -58,7 +59,7 @@
 
 .ratings-card {
   border-radius: 10px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16); */
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   padding: 10px;
@@ -68,7 +69,7 @@
 }
 .progress-1st-col {
   border-radius: 10px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16);
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   padding: 10px;
@@ -78,7 +79,7 @@
 
 .progress-2nd-col {
   border-radius: 10px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16);
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   padding: 10px;
@@ -181,8 +182,8 @@
   justify-content: center;
   font-size: 1.8rem;
   font-weight: bold;
-  color: #1f1f1fed;
-  text-shadow: 1px 1px 2px #ffffffad;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px #181818ad;
   padding-bottom: 10px;
   text-align: center;
   font-family: "Merienda", cursive;
@@ -193,8 +194,8 @@
 .skills-title {
   font-size: 2rem;
   font-weight: bold;
-  color: #131212e6;
-  text-shadow: 1px 1px 2px #ffffffa7;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px #000000a7;
   font-family: "Merienda", cursive;
   letter-spacing: 0px;
   text-align: center;
@@ -205,39 +206,48 @@
 }
 
 .html-progress {
-  background-color: rgba(255, 68, 0, 0.733);
+  /* background-color: rgba(255, 68, 0, 0.733); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .css-progress {
-  background-color: rgba(0, 0, 255, 0.751);
+  /* background-color: rgba(0, 0, 255, 0.751); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .js-progress {
-  background-color: rgba(228, 214, 20, 0.733);
+  /* background-color: rgba(228, 214, 20, 0.733); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .bootstrap-progress {
-  background-color: rgba(198, 27, 198, 0.756);
+  /* background-color: rgba(198, 27, 198, 0.756); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .react-progress {
-  background-color: rgba(27, 180, 235, 0.783);
+  /* background-color: rgba(27, 180, 235, 0.783); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .mysql-progress {
-  background-color: rgba(228, 214, 20, 0.744);
+  /* background-color: rgba(228, 214, 20, 0.744); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .mongodb-progress {
-  background-color: rgba(0, 128, 0, 0.758);
+  /* background-color: rgba(0, 128, 0, 0.758); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .express-progress {
-  background-color: rgba(10, 151, 10, 0.749);
+  /* background-color: rgba(10, 151, 10, 0.749); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .node-progress {
-  background-color: rgba(172, 255, 47, 0.767);
+  /* background-color: rgba(172, 255, 47, 0.767); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .github-progress {
@@ -245,11 +255,13 @@
 }
 
 .netlify-progress {
-  background-color: rgba(27, 180, 235, 0.758);
+  /* background-color: rgba(27, 180, 235, 0.758); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 .render-progress {
-  background-color: rgba(27, 180, 235, 0.758);
+  /* background-color: rgba(27, 180, 235, 0.758); */
+  background-color: rgba(0, 0, 0, 0.758);
 }
 
 /* ------------------------------------------------------------------ */

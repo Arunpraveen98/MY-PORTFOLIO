@@ -4,13 +4,14 @@
 .projectbackground {
   width: 100%;
   height: 100%;
-  background-color: #4158d0;
+  /* background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
     #4158d0 0%,
     #c850c0 46%,
     #ffcc70 100%
-  );
+  ); */
+  background-color: #000000;
 }
 
 .project-section {
@@ -44,12 +45,12 @@
   margin-right: 18px;
 }
 .email-key {
-  color: rgb(255, 255, 0);
+  color: rgba(255, 217, 0, 0.932);
   margin-right: 5px;
   letter-spacing: 2px;
 }
 .pass-key {
-  color: rgb(255, 255, 0);
+  color: rgba(255, 217, 0, 0.932);
   margin-right: 5px;
   letter-spacing: 2px;
 }
@@ -71,11 +72,12 @@
 }
 
 .project-card-view {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
-  color: #191919 !important;
+  /* box-shadow: rgba(250, 250, 252, 0.1) 0px 4px 16px,
+  rgba(250, 250, 252, 0.1) 0px 8px 24px, rgba(250, 250, 252, 0.1) 0px 16px 56px !important; */
+  /* box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px; */
+  /* color: #191919 !important; */
   background-color: transparent !important;
-  border: transparent;
+  border: 2px solid rgba(245, 245, 245, 0.283);
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -85,16 +87,18 @@
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+  /* box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px,
+    rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px !important; */
+    box-shadow: rgba(183, 183, 192, 0.25) 0px 2px 5px -1px, rgba(183, 183, 192, 0.25)  0px 1px 3px -1px;
+     /* border: transparent; */
 }
 
 .project-title {
-  color: rgba(0, 0, 0, 0.856);
-  font-weight: bold;
+  color: rgba(255, 217, 0, 0.932);
+  /* font-weight: bold; */
   font-family: "Sansita", sans-serif;
   letter-spacing: 1px;
-  text-shadow: 1px 1px 1px #cacaca;
+  text-shadow: 1px 1px 1px #eae9e93b;
 }
 
 .card-img-div {
@@ -114,22 +118,22 @@
 
 @-webkit-keyframes shadow-inset-center {
   0% {
-    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
-    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset 0 0 0 0 rgba(254, 254, 254, 0);
+    box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0);
   }
   100% {
-    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(255, 255, 255, 0.5);
   }
 }
 @keyframes shadow-inset-center {
   0% {
-    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
-    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0);
   }
   100% {
-    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(255, 255, 255, 0.5);
   }
 }
 /* ------------------------------------------------------------------ */
@@ -158,17 +162,17 @@
 }
 
 .btn-primary {
-  color: #050505 !important;
+  color: rgba(255, 217, 0, 0.932) !important;
   font-family: "Sansita", sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
   background-color: transparent !important;
   border-color: #ffffff64 !important;
 }
 
 .btn-primary:hover {
-  color: #ffffff !important;
-  background-color: #c850c0 !important;
-  border-color: #c850c0 !important;
+  color: #0a0a0a !important;
+  background-color: #f8f8f898 !important;
+  border-color: #fffeff98 !important;
 }
 
 .btn:focus {
@@ -177,6 +181,9 @@
 }
 .btn-link {
   color: rgba(241, 241, 234, 0.957);
+}
+.btn-link:hover{
+  color:#000000
 }
 /* ------------------------------------------------------------------ */
 @media screen and (min-width: 320px) and (max-width: 500px) {
