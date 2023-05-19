@@ -111,7 +111,7 @@ function Header() {
             </Nav.Link>
           </Nav.Item>
           {/* ----------------------------- */}
-          <Button
+          <button
             onClick={() => {
               window.open(`${process.env.REACT_APP_ARUN_RESUME}`);
             }}
@@ -119,7 +119,7 @@ function Header() {
           >
             <span className="resume-title">Resume</span>{" "}
             <AiFillFileExclamation className="resume-title" />
-          </Button>
+          </button>
           {/* ----------------------------- */}
         </Nav>
         {/* ----------------------------- */}

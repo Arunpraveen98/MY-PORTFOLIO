@@ -70,7 +70,6 @@
   width: 25px;
   height: 25px;
   color: #32fe32;
-
   border-radius: 5px;
   position: relative;
   bottom: 3px;
@@ -98,7 +97,8 @@
 }
 
 .contactbtn:hover {
-  background-color: rgba(57, 245, 245, 0.477);
+  background-color: rgba(57, 245, 245, 0.388);
+  color: #000;
 }
 
 .copyright {
@@ -182,8 +182,8 @@
 
 .send-btn {
   background: #2e94e3;
-  box-shadow: rgba(191, 191, 196, 0.25) 0px 2px 5px -1px,
-    rgba(225, 222, 222, 0.3) 0px 1px 3px -1px;
+  box-shadow: rgba(191, 191, 196, 0.078) 0px 2px 5px -1px,
+    rgba(225, 222, 222, 0.112) 0px 1px 3px -1px;
   color: #fff;
   border: none;
   width: 120px;

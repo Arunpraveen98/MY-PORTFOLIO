@@ -98,7 +98,8 @@
   font-weight: bolder;
   color: rgba(255, 217, 0, 0.932);
   font-size: 60px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.628);
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.628); */
+  text-shadow: 2px 2px 3px #0b0b0b;
 }
 
 .logo-span {
@@ -123,7 +124,8 @@
 .navbar-nav .nav-link:hover {
   cursor: pointer !important;
   color: rgb(255, 255, 255) !important;
-  font-weight: bold !important;
+  font-weight: 500 !important;
+  letter-spacing: 1.5px;
   transform: scale(1.1);
   transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -131,13 +133,15 @@
 .resumebtn {
   margin-left: 30px;
   border-radius: 25px;
-  padding: 0 25px;
+  padding: 0 18px;
+  font-family: "Philosopher", sans-serif;
   /* ----------- */
   /* background-color: #4158d0;
   background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 100%); */
   /* ----------- */
   box-shadow: rgba(183, 179, 179, 0.35) 0px 0px 2px 2px;
   border: none;
+  background: transparent;
 }
 .resumebtn:hover {
   background-color: #000000 !important;
@@ -182,11 +186,13 @@
     justify-content: center;
   }
   .resumebtn {
-    width: 150px;
+    width: 110px;
     display: block;
     margin: 5px auto;
-    padding: 8px 5px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
     letter-spacing: 1px;
+    font-size: 14px;
   }
   .my-logo-name {
     position: relative;
