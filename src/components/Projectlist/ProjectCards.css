@@ -4,6 +4,7 @@
 .projectbackground {
   width: 100%;
   height: 100%;
+  /* ----------- */
   /* background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
@@ -11,7 +12,8 @@
     #c850c0 46%,
     #ffcc70 100%
   ); */
-  background-color: #000000;
+  /* ----------- */
+  background-color: #162a4a;
 }
 
 .project-section {
@@ -72,10 +74,12 @@
 }
 
 .project-card-view {
+  /* ----------- */
   /* box-shadow: rgba(250, 250, 252, 0.1) 0px 4px 16px,
   rgba(250, 250, 252, 0.1) 0px 8px 24px, rgba(250, 250, 252, 0.1) 0px 16px 56px !important; */
   /* box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px; */
   /* color: #191919 !important; */
+  /* ----------- */
   background-color: transparent !important;
   border: 2px solid rgba(245, 245, 245, 0.283);
   opacity: 0.9 !important;
@@ -87,23 +91,27 @@
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
+  /* ----------- */
   /* box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px,
     rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px !important; */
-    box-shadow: rgba(183, 183, 192, 0.25) 0px 2px 5px -1px, rgba(183, 183, 192, 0.25)  0px 1px 3px -1px;
-     /* border: transparent; */
+  /* box-shadow: rgba(183, 183, 192, 0.25) 0px 2px 5px -1px, rgba(183, 183, 192, 0.25)  0px 1px 3px -1px; */
+  /* border: transparent; */
+  /* ----------- */
+  box-shadow: 0px 0px 4px 4px rgba(242, 242, 242, 0.135);
+  border: 2px solid rgba(245, 245, 245, 0);
 }
 
 .project-title {
-  color: rgba(255, 217, 0, 0.932);
+  color: rgba(248, 212, 13, 0.979);
   /* font-weight: bold; */
   font-family: "Sansita", sans-serif;
   letter-spacing: 1px;
-  text-shadow: 1px 1px 1px #eae9e93b;
+  text-shadow: 1px 1px 1px #201e1e3b;
 }
 
 .card-img-div {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  box-shadow: rgba(242, 242, 242, 0.135) 0px 2px 5px -1px,
+    rgba(242, 242, 242, 0.135) 0px 1px 3px -1px;
 }
 
 .card-img {
@@ -162,7 +170,7 @@
 }
 
 .btn-primary {
-  color: rgba(255, 217, 0, 0.932) !important;
+  color: rgba(248, 212, 13, 0.979) !important;
   font-family: "Sansita", sans-serif;
   /* font-weight: bold; */
   background-color: transparent !important;
@@ -172,7 +180,7 @@
 .btn-primary:hover {
   color: #0a0a0a !important;
   background-color: #f8f8f898 !important;
-  border-color: #fffeff98 !important;
+  border-color: #fffeff00 !important;
 }
 
 .btn:focus {
@@ -182,8 +190,8 @@
 .btn-link {
   color: rgba(241, 241, 234, 0.957);
 }
-.btn-link:hover{
-  color:#000000
+.btn-link:hover {
+  color: #000000;
 }
 /* ------------------------------------------------------------------ */
 @media screen and (min-width: 320px) and (max-width: 500px) {

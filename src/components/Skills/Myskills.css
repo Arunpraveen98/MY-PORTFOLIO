@@ -8,6 +8,7 @@
 .skills-background {
   width: 100%;
   height: 100vh;
+  /* ----------- */
   /* background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
@@ -15,7 +16,9 @@
     #c850c0 46%,
     #ffcc70 100%
   ); */
-  background-color: #000000;
+  /* background-color: #000000; */
+  /* ----------- */
+  background-color: #162a4a;
   padding-top: 80px;
 }
 
@@ -66,6 +69,7 @@
 }
 .progress {
   height: 12px;
+  margin-bottom: 15px;
 }
 .progress-1st-col {
   border-radius: 10px;
@@ -199,6 +203,7 @@
   font-family: "Merienda", cursive;
   letter-spacing: 0px;
   text-align: center;
+  /* font-style: italic; */
 }
 
 .skills-row {
@@ -207,51 +212,51 @@
 
 .html-progress {
   /* background-color: rgba(255, 68, 0, 0.733); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .css-progress {
   /* background-color: rgba(0, 0, 255, 0.751); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .js-progress {
   /* background-color: rgba(228, 214, 20, 0.733); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .bootstrap-progress {
   /* background-color: rgba(198, 27, 198, 0.756); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .react-progress {
   /* background-color: rgba(27, 180, 235, 0.783); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .mysql-progress {
   /* background-color: rgba(228, 214, 20, 0.744); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .mongodb-progress {
   /* background-color: rgba(0, 128, 0, 0.758); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .express-progress {
   /* background-color: rgba(10, 151, 10, 0.749); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .node-progress {
   /* background-color: rgba(172, 255, 47, 0.767); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
-.github-progress {
-  background-color: rgba(0, 0, 0, 0.758);
+.material-progress {
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .netlify-progress {
@@ -270,6 +275,7 @@
     width: 100% !important;
     height: 100% !important;
   }
+
   .tools-and-technologies-title {
     font-size: 1.5rem !important;
     font-weight: bold;
@@ -299,6 +305,7 @@
   }
   .progress {
     width: 90%;
+    margin-bottom: 5px !important;
   }
   .progress-1st-col {
     padding: 10px;
@@ -326,6 +333,7 @@
   }
   .progress {
     width: 90%;
+    margin-bottom: 5px !important;
   }
 }
 /* ------------------------------------------------------------------ */

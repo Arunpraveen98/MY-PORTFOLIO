@@ -44,18 +44,18 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.758);
+  background-color: #a0a1a4;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   /* background: rgba(174, 64, 224, 0.65); */
-  background-color: rgba(0, 0, 0, 0.758);
+  background-color: #162a4a;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.911);
+  background-color: #162a4a;
   border-radius: 12px;
 }

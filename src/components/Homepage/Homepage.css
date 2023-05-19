@@ -9,6 +9,7 @@
 .homepagebackground {
   width: 100%;
   height: 100vh;
+  /* ----------- */
   /* background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
@@ -16,7 +17,8 @@
     #c850c0 46%,
     #ffcc70 100%
   ); */
-  /* background-image: url("../../Images/bg.png"); */
+  /* background-image: url("../../Images//a.png"); */
+  /* ----------- */
   background-image: url("../../Images/Homepage-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -72,7 +74,7 @@
   letter-spacing: 1px !important;
   font-family: "Philosopher", sans-serif;
   color: rgb(255, 255, 255) !important;
-  text-shadow: 2px 2px 4px rgba(72, 72, 72, 0.434);
+  text-shadow: 2px 2px 4px #201e1e3b !important;
 }
 
 .Typewriter__cursor {
@@ -84,6 +86,7 @@
   padding-top: 120px;
   font-size: 2.4em !important;
   color: whitesmoke !important;
+  text-shadow: 2px 2px 4px #201e1e3b !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
   font-family: "Alkatra", cursive;
@@ -93,6 +96,7 @@
   font-size: 2em !important;
   font-family: "Alkatra", cursive;
   color: rgba(255, 217, 0, 0.932) !important;
+  text-shadow: 1px 1px 1px #201e1e3b;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
@@ -180,10 +184,10 @@
     font-size: 1.8em !important;
   }
   .imagedeveloper {
-    margin-top: 50px;
+    margin-top: 30px;
     max-width: 240px;
     max-height: 240px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .socailmediabtn {
     margin-top: 1rem;

@@ -3,6 +3,7 @@
 /* Navbar import */
 @import url("https://fonts.googleapis.com/css2?family=Tillana&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/* ----------- */
 .navbar {
   width: 100%;
   height: 100px;
@@ -16,7 +17,6 @@
 
 .navbar-icons {
   /* color: rgba(38, 197, 17, 0.776); */
-
   width: 20px !important;
   height: 20px !important;
   position: relative;
@@ -132,19 +132,23 @@
   margin-left: 30px;
   border-radius: 25px;
   padding: 0 25px;
-  background-color: #4158d0;
-  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 100%);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+  /* ----------- */
+  /* background-color: #4158d0;
+  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 100%); */
+  /* ----------- */
+  box-shadow: rgba(183, 179, 179, 0.35) 0px 0px 2px 2px;
   border: none;
 }
-
+.resumebtn:hover {
+  background-color: #000000 !important;
+}
 .resume-title {
   color: whitesmoke !important;
   font-weight: lighter;
 }
 
 .resume-title:hover {
-  /* color: rgb(19, 19, 19) !important; */
+  color: rgb(255, 255, 255) !important;
   cursor: pointer;
 }
 /* ------------------------------------------------------------------ */
@@ -160,6 +164,7 @@
     width: 100%;
     height: 250px;
     border-radius: 10px;
+    /* ----------- */
     /* background-color: #4158d0;
     background-image: linear-gradient(
       43deg,
@@ -167,7 +172,9 @@
       #c850c0 0%,
       #ffcc70 100%
     ); */
-    background-color: #000000;
+    /* background-color: #000000; */
+    /* ----------- */
+    background-color: #162a4a;
   }
   .nav-link {
     display: flex;

@@ -122,7 +122,7 @@ function Skills() {
               {/* ------------------------- */}
               <div className="col-lg-5 progress-1st-col">
                 {/* ------------------------- */}
-            
+
                 <div className="skill">
                   <h5 className="skills-name">JavaScript</h5>
                   <div className="progress">
@@ -193,7 +193,7 @@ function Skills() {
                   </div>
                 </div>
                 {/* ------------------------- */}
-                
+
                 {/* <div className="skill">
                   <h5 className="skills-name">Netlify</h5>
                   <div className="progress">
@@ -240,8 +240,7 @@ function Skills() {
                   </div>
                 </div>
                 {/* ------------------------- */}
-            
-             
+
                 <div className="skill">
                   <h5 className="skills-name">Bootstrap</h5>
                   <div className="progress">
@@ -256,14 +255,14 @@ function Skills() {
                   </div>
                 </div>
                 {/* ------------------------- */}
-                   <div className="skill">
+                <div className="skill">
                   <h5 className="skills-name">Material-UI</h5>
                   <div className="progress">
                     <div
-                      className="progress-bar progress-bar-striped progress-bar-animated github-progress"
+                      className="progress-bar progress-bar-striped progress-bar-animated material-progress"
                       role="progressbar"
-                      style={{ width: "85%" }}
-                      aria-valuenow="85"
+                      style={{ width: "80%" }}
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
